@@ -72,7 +72,7 @@ The following hosted platforms provide cloud-based AR content authoring, managed
 
 ## ⚡ Open-Source AR Frameworks & Authoring Tools
 
-The following open-source libraries, runtimes, and developer toolkits enable self-hosted, vendor-agnostic AR authoring without recurring per-view SaaS hosting fees. All repositories feature live stargazer badges and are sorted in **descending order by GitHub Stars_Count**.
+The following open-source libraries, runtimes, and developer toolkits enable self-hosted, vendor-agnostic AR authoring without recurring per-view SaaS hosting fees. All repositories feature live stargazer badges and are sorted in **descending order by GitHub_Stars_Count**.
 
 - **[A-Frame](https://github.com/aframevr/aframe)** [![GitHub_Stars](https://img.shields.io/github/stars/aframevr/aframe?style=social&color=white)](https://github.com/aframevr/aframe/stargazers)  
   **The declarative HTML framework for spatial computing.** Built on Three.js, A-Frame lets developers compose WebXR and WebAR scenes directly in HTML markup using an entity-component-system (ECS) pattern. Integrates seamlessly with WebXR hit-test, AR.js, and MindAR for instant in-browser authoring.
