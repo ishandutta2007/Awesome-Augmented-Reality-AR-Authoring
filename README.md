@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,27 +42,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global Augmented Reality (AR) software and authoring tools market is estimated at roughly $120–$170 billion across broader AR/XR sectors, with dedicated creation software expanding at a CAGR exceeding 30–40%. While underlying spatial operating systems and hardware runtimes are tightly concentrated among big tech oligopolies (Apple, Google, Meta), the AR authoring tool and SaaS layer remains **moderately fragmented**, populated by specialized enterprise CAD/IoT solution vendors, no-code WebAR marketing suites, and real-time 3D engine ecosystems competing across distinct vertical niches.
+
+
 ## SaaS/Hosted Platforms
 
 
 
-| Product | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- |
-
-| **[8th Wall (Legacy Hosted Platform)](https://8thwall.org)** | Formerly a paid WebAR platform. **Hosted platform retired February 28, 2026**—now fully open source . | **No longer offered as SaaS**. All paid subscriptions ended; open-source tools and binary are free . | N/A (discontinued as SaaS). See Open-Source section for current offering. |
-
-| **[Adobe Aero](https://www.adobe.com/products/aero.html)** | No-code AR authoring tool for creating interactive experiences with 3D content. | Included with Creative Cloud subscriptions or free Starter plan. | **Free Starter plan** available with core authoring features. |
-
-| **[ZapWorks](https://zap.works/)** | WebAR and native app authoring platform with drag-and-drop designer and scripting. | Quote-based; pricing not published on main site. | **Free trial** available. No permanent free tier. |
-
-| **[Unity MARS](https://unity.com/products/mars)** | AR authoring within Unity with proxy-based workflow for spatial awareness. | Requires Unity Pro subscription (from ~$2,310/year) plus MARS add-on . | No standalone free tier. Trial via Unity. |
-
-| **[PTC Vuforia Studio](https://www.ptc.com/en/products/vuforia/vuforia-studio)** | Enterprise AR authoring for industrial and product visualization. | Quote-based; enterprise-tier. | Trial available via PTC. |
-
-| **[Spark AR (Meta)](https://spark.meta.com/)** | AR effects authoring for Instagram and Facebook. | **Free** to use. | **Fully free** for creating effects for Meta platforms. |
-
-| **[Lens Studio (Snap)](https://lensstudio.snapchat.com/)** | AR lens authoring for Snapchat. | **Free** to use. | **Fully free** for creating lenses for Snapchat. |
+| Product | Company Size (Market Cap / Valuation / Revenue) | Description | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Spark AR (Meta)](https://spark.meta.com/)** | **~$1.65 Trillion Market Cap** (Meta Platforms, Inc., FY25 Revenue ~$160B+) | AR effects authoring for Instagram and Facebook. *(Note: Discontinued January 14, 2025; third-party publishing sunset)*. | **Free** to use. | **Fully free** (Unlimited non-commercial creation; third-party distribution closed January 2025). |
+| **[Adobe Aero](https://www.adobe.com/products/aero.html)** | **~$105 Billion Market Cap** (Adobe Inc., FY25 Revenue ~$21.4B) | Visual no-code AR authoring tool for creating and viewing interactive AR experiences across iOS, macOS, and Windows. | **Free** standalone desktop/mobile app (Paid Creative Cloud All Apps plans start at **$54.99/mo**). | **Free plan** included with free Adobe ID; limited to **2 GB cloud asset storage**. |
+| **[PTC Vuforia Studio](https://www.ptc.com/en/products/vuforia/vuforia-studio)** | **~$22.6 Billion Market Cap** (PTC Inc., FY25 Revenue ~$2.74B) | Enterprise AR authoring suite integrating industrial 3D CAD and live ThingWorx IoT telemetry for frontline worker workflows. | Custom quote-based enterprise licensing (typically estimated around **$2,000–$4,000/creator/year**). | **30-day free trial** with access to local authoring and Experience Service publishing; local authoring remains post-trial but hosting/sharing expires. |
+| **[Unity MARS](https://unity.com/products/mars)** | **~$18.5 Billion Market Cap** (Unity Software Inc., FY25 Revenue ~$1.85B) | AR authoring extension within Unity with proxy-based workflow for spatial simulation. *(Deprecated in Unity 6.1; support ended Unity 6.3 in favor of AR Foundation)*. | Bundled with Unity Pro (**$210/month** or **$2,310/year**; MARS standalone historically $50/mo). | **45-day free trial** of MARS (Unity Personal has no permanent free MARS license; trial grants 45 days full feature access). |
+| **[Lens Studio (Snap)](https://lensstudio.snapchat.com/)** | **~$10.7 Billion Market Cap** (Snap Inc., FY25 Revenue ~$5.3B) | Professional AR lens creation suite for Snapchat, Spectacles, and web distribution via Camera Kit. | **Free** to download and use. | **Fully free** (Unlimited AR lens authoring and testing; Camera Kit web SDK includes free monthly active user tiers). |
+| **[8th Wall (Legacy Hosted Platform)](https://8thwall.org)** | **~$3.5 Billion Parent Valuation** (Acquired by Niantic; platform retired post-2025 spin-off) | Historically the benchmark commercial WebAR SaaS hosting platform. Hosted service retired February 28, 2026. | **Discontinued as paid SaaS** (Core engine open-sourced under MIT with SLAM binary). | Discontinued as paid SaaS; open-source engine is free to self-host without fees. |
+| **[Blippar (Blippbuilder)](https://blippbuilder.blippar.com)** | **~$25M–$50M Valuation** (Post-restructuring; estimated ~$6M–$8M ARR; raised $130M+ historically) | No-code drag-and-drop WebAR creation tool and developer WebAR SDK for browser-based image, surface, and face tracking. | Starts at **£7.99/month (~$10/mo)** for Creative Plan; Pro at £39/month. | **Free Starter plan** with unlimited drafting and testing in editor; public live publishing requires paid plan or 1-month WebAR SDK trial (100 views). |
+| **[ZapWorks](https://zap.works/)** | **~$3.75M Total Funding** (Zappar Ltd.; estimated ~$5M–$15M annual revenue) | Complete WebAR and native XR creation ecosystem featuring Designer (no-code), Mattercraft, and Universal AR SDKs. | Starts at **$12.99/month** (or $64.99/year) for Developer tier; Pro commercial plan at **$315/month**. | **14-day free trial** with full feature access for evaluation; trial projects unpublish after 14 days without a paid plan. |
+| **[MyWebAR](https://mywebar.com)** | **~$3M Venture Funding** (DEVAR Entertainment; estimated ~$4.2M–$10M ARR) | Browser-based visual no-code WebAR authoring tool for surface tracking, QR targets, and face filters. | Starts at **$39/month** ($25/mo billed annually) for Pro tier with commercial rights. | **Free Creator plan forever** limited to **500 views/year**, **5 active projects**, **100 MB cloud storage**, non-commercial use, and platform watermark. |
+| **[echo3D](https://www.echo3d.com/)** | **~$25M–$50M Valuation** ($10.6M total funding backed by Qualcomm Ventures; ~$1M–$2M ARR) | Cloud 3D digital asset management (DAM) and backend CMS platform for WebAR and 3D cross-platform streaming. | Starts at **$99/month** for Pro tier (includes 100 credits/mo, advanced compression, team sharing). | **Free plan forever** limited to **10 credits/month** (100 API calls, 1 GB storage, 250 MB bandwidth) and max **25 MB** per 3D file. |
+| **[Onirix](https://www.onirix.com)** | **~$1.9M ARR** (Acquired March 2026 by INVELON; raised €700K seed) | Web-based AR scene creator and spatial computing platform offering marker, surface, and image tracking. | Starts at **€45/month (~$49/mo)** billed annually (or €90/month billed monthly) for Starter tier. | **Free plan** limited to **200 AR views/month**, **up to 5 projects**, max 5 scenes per project, and mandatory Onirix watermark. |
+| **[Overly App](https://overlyapp.com/)** | **Bootstrapped / Indie SaaS** (Estimated <$1M ARR) | Self-service no-code WebAR builder and marker tracking platform for interactive print and 3D product visualizations. | Starts at **€19.99/month (~$22/mo)** per experience (or €11.99/mo per experience billed annually). | **Free trial** to build and preview AR experiences on mobile; Shopify integration tier offers **2 experiences and 50 views/month**.
 
 
 
