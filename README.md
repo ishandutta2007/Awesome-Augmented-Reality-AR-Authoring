@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring?style=flat-square&color=green" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -72,48 +72,48 @@ The following hosted platforms provide cloud-based AR content authoring, managed
 
 ## ⚡ Open-Source AR Frameworks & Authoring Tools
 
-The following open-source libraries, runtimes, and developer toolkits enable self-hosted, vendor-agnostic AR authoring without recurring per-view SaaS hosting fees. All repositories feature live stargazer badges and are sorted in **descending order by GitHub star count**.
+The following open-source libraries, runtimes, and developer toolkits enable self-hosted, vendor-agnostic AR authoring without recurring per-view SaaS hosting fees. All repositories feature live stargazer badges and are sorted in **descending order by GitHub Stars_Count**.
 
-- **[A-Frame](https://github.com/aframevr/aframe)** [![GitHub Stars](https://img.shields.io/github/stars/aframevr/aframe?style=social&color=white)](https://github.com/aframevr/aframe/stargazers)  
+- **[A-Frame](https://github.com/aframevr/aframe)** [![GitHub_Stars](https://img.shields.io/github/stars/aframevr/aframe?style=social&color=white)](https://github.com/aframevr/aframe/stargazers)  
   **The declarative HTML framework for spatial computing.** Built on Three.js, A-Frame lets developers compose WebXR and WebAR scenes directly in HTML markup using an entity-component-system (ECS) pattern. Integrates seamlessly with WebXR hit-test, AR.js, and MindAR for instant in-browser authoring.
 
-- **[<model-viewer> (Google)](https://github.com/google/model-viewer)** [![GitHub Stars](https://img.shields.io/github/stars/google/model-viewer?style=social&color=white)](https://github.com/google/model-viewer/stargazers)  
+- **[<model-viewer> (Google)](https://github.com/google/model-viewer)** [![GitHub_Stars](https://img.shields.io/github/stars/google/model-viewer?style=social&color=white)](https://github.com/google/model-viewer/stargazers)  
   **The web-component standard for 3D and AR placement.** Maintained by Google, `<model-viewer>` delivers production-grade 3D model rendering and frictionless one-tap AR surface placement across iOS (Quick Look via USDZ) and Android (Scene Viewer / WebXR via glTF) with automatic lighting and shadow estimation.
 
-- **[AR.js](https://github.com/AR-js-org/AR.js)** [![GitHub Stars](https://img.shields.io/github/stars/AR-js-org/AR.js?style=social&color=white)](https://github.com/AR-js-org/AR.js/stargazers)  
+- **[AR.js](https://github.com/AR-js-org/AR.js)** [![GitHub_Stars](https://img.shields.io/github/stars/AR-js-org/AR.js?style=social&color=white)](https://github.com/AR-js-org/AR.js/stargazers)  
   **The ultra-fast, multi-tracking WebAR engine.** Provides lightweight marker tracking, natural feature image tracking, and location-based AR directly in web browsers. Runs at 60 FPS on mobile devices with zero installation, pairing seamlessly with A-Frame and Three.js.
 
-- **[Jeeliz FaceFilter](https://github.com/jeeliz/jeelizFaceFilter)** [![GitHub Stars](https://img.shields.io/github/stars/jeeliz/jeelizFaceFilter?style=social&color=white)](https://github.com/jeeliz/jeelizFaceFilter/stargazers)  
+- **[Jeeliz FaceFilter](https://github.com/jeeliz/jeelizFaceFilter)** [![GitHub_Stars](https://img.shields.io/github/stars/jeeliz/jeelizFaceFilter?style=social&color=white)](https://github.com/jeeliz/jeelizFaceFilter/stargazers)  
   **Real-time deep learning WebGL face tracking.** Lightweight JavaScript library for multi-face detection, 3D facial rotation, and augmented reality face filters with mouth-opening detection. Integrates out of the box with Three.js, Babylon.js, Canvas2D, and CSS3D.
 
-- **[MindAR](https://github.com/hiukim/mind-ar-js)** [![GitHub Stars](https://img.shields.io/github/stars/hiukim/mind-ar-js?style=social&color=white)](https://github.com/hiukim/mind-ar-js/stargazers)  
+- **[MindAR](https://github.com/hiukim/mind-ar-js)** [![GitHub_Stars](https://img.shields.io/github/stars/hiukim/mind-ar-js?style=social&color=white)](https://github.com/hiukim/mind-ar-js/stargazers)  
   **The pure-JavaScript tracking library.** End-to-end image and face tracking using WebGL and Web Workers for high performance without native binary dependencies. Offers straightforward A-Frame integrations (~10 lines of code) and companion tools like MindAR Studio for drag-and-drop authoring.
 
-- **[React XR (@react-three/xr)](https://github.com/pmndrs/react-xr)** [![GitHub Stars](https://img.shields.io/github/stars/pmndrs/react-xr?style=social&color=white)](https://github.com/pmndrs/react-xr/stargazers)  
+- **[React XR (@react-three/xr)](https://github.com/pmndrs/react-xr)** [![GitHub_Stars](https://img.shields.io/github/stars/pmndrs/react-xr?style=social&color=white)](https://github.com/pmndrs/react-xr/stargazers)  
   **Modern React components for WebXR AR and VR.** Part of the Poimandres ecosystem, `@react-three/xr` brings WebXR hit-testing, spatial plane detection, hand tracking, and controller interactions into React Three Fiber applications for declarative, composable AR authoring.
 
-- **[ViroReact](https://github.com/ReactVision/viro)** [![GitHub Stars](https://img.shields.io/github/stars/ReactVision/viro?style=social&color=white)](https://github.com/ReactVision/viro/stargazers)  
+- **[ViroReact](https://github.com/ReactVision/viro)** [![GitHub_Stars](https://img.shields.io/github/stars/ReactVision/viro?style=social&color=white)](https://github.com/ReactVision/viro/stargazers)  
   **The React Native AR/VR framework.** Cross-platform mobile development library powered by native ARKit (iOS) and ARCore (Android) bindings. Enables developers to build native mobile AR experiences using React Native and Expo without platform-specific Objective-C or Java.
 
-- **[artoolkitX](https://github.com/artoolkitx/artoolkitx)** [![GitHub Stars](https://img.shields.io/github/stars/artoolkitx/artoolkitx?style=social&color=white)](https://github.com/artoolkitx/artoolkitx/stargazers)  
+- **[artoolkitX](https://github.com/artoolkitx/artoolkitx)** [![GitHub_Stars](https://img.shields.io/github/stars/artoolkitx/artoolkitx?style=social&color=white)](https://github.com/artoolkitx/artoolkitx/stargazers)  
   **High-performance cross-platform tracking SDK.** Native C++ computer vision engine offering planar marker tracking, 2D barcode matrix tracking, and natural feature texture tracking for iOS, Android, macOS, Windows, Linux, and experimental WebAssembly runtimes.
 
-- **[AlvaAR](https://github.com/alanross/AlvaAR)** [![GitHub Stars](https://img.shields.io/github/stars/alanross/AlvaAR?style=social&color=white)](https://github.com/alanross/AlvaAR/stargazers)  
+- **[AlvaAR](https://github.com/alanross/AlvaAR)** [![GitHub_Stars](https://img.shields.io/github/stars/alanross/AlvaAR?style=social&color=white)](https://github.com/alanross/AlvaAR/stargazers)  
   **In-browser visual SLAM for WebAR.** A clean JavaScript library delivering real-time Simultaneous Localization and Mapping (SLAM) and camera pose estimation in mobile browsers without external native applications. Compatible with Three.js for markerless AR authoring.
 
-- **[8th Wall](https://github.com/8thwall/8thwall)** [![GitHub Stars](https://img.shields.io/github/stars/8thwall/8thwall?style=social&color=white)](https://github.com/8thwall/8thwall/stargazers)  
+- **[8th Wall](https://github.com/8thwall/8thwall)** [![GitHub_Stars](https://img.shields.io/github/stars/8thwall/8thwall?style=social&color=white)](https://github.com/8thwall/8thwall/stargazers)  
   **The open-source WebAR framework standard.** Open-sourced in February 2026 under the MIT license with core modules, CLI tools, and a visual Desktop editor. Features broad integrations across Three.js, A-Frame, Babylon.js, and PlayCanvas *(Note: SLAM world tracking core is distributed as a binary engine permitting commercial use)*.
 
-- **[AR.js Studio](https://github.com/AR-js-org/studio)** [![GitHub Stars](https://img.shields.io/github/stars/AR-js-org/studio?style=social&color=white)](https://github.com/AR-js-org/studio/stargazers)  
+- **[AR.js Studio](https://github.com/AR-js-org/studio)** [![GitHub_Stars](https://img.shields.io/github/stars/AR-js-org/studio?style=social&color=white)](https://github.com/AR-js-org/studio/stargazers)  
   **The no-code WebAR authoring platform.** A browser-based visual authoring studio developed by the AR.js organization. Enables non-programmers to drag, drop, and publish location-based and marker-based AR experiences directly to GitHub Pages with instant QR code previewing.
 
-- **[encantar.js](https://github.com/alemart/encantar-js)** [![GitHub Stars](https://img.shields.io/github/stars/alemart/encantar-js?style=social&color=white)](https://github.com/alemart/encantar-js/stargazers)  
+- **[encantar.js](https://github.com/alemart/encantar-js)** [![GitHub_Stars](https://img.shields.io/github/stars/alemart/encantar-js?style=social&color=white)](https://github.com/alemart/encantar-js/stargazers)  
   **GPU-accelerated WebAR without WebXR dependencies.** Employs custom computer vision trackers to deliver natural feature image tracking and pointer tracking across iOS, Android, and desktop browsers, functioning seamlessly with any 3D WebGL renderer.
 
-- **[Needle Engine Samples](https://github.com/needle-tools/needle-engine-samples)** [![GitHub Stars](https://img.shields.io/github/stars/needle-tools/needle-engine-samples?style=social&color=white)](https://github.com/needle-tools/needle-engine-samples/stargazers)  
+- **[Needle Engine Samples](https://github.com/needle-tools/needle-engine-samples)** [![GitHub_Stars](https://img.shields.io/github/stars/needle-tools/needle-engine-samples?style=social&color=white)](https://github.com/needle-tools/needle-engine-samples/stargazers)  
   **Interactive WebXR authoring from Unity and Blender.** Reference projects and authoring templates demonstrating how to export interactive WebAR/WebXR scenes with physics, networking, and spatial placement directly from Unity and Blender into lightweight, browser-ready web applications.
 
-- **[LUTE (LoGaCulture Unity Toolkit/Engine)](https://github.com/LoGaCulture/LUTE)** [![GitHub Stars](https://img.shields.io/github/stars/LoGaCulture/LUTE?style=social&color=white)](https://github.com/LoGaCulture/LUTE/stargazers)  
+- **[LUTE (LoGaCulture Unity Toolkit/Engine)](https://github.com/LoGaCulture/LUTE)** [![GitHub_Stars](https://img.shields.io/github/stars/LoGaCulture/LUTE?style=social&color=white)](https://github.com/LoGaCulture/LUTE/stargazers)  
   **Locative narrative game authoring toolkit.** Academic research-backed Unity plugin utilizing a visual node flow engine to construct location-based mixed reality games and cultural heritage AR tours with interactive storytelling, dialogue trees, and 3D orders.
 
 ---
