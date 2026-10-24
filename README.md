@@ -1,55 +1,57 @@
-# Awesome-Augmented-Reality-AR-Authoring
+# 🚀 Awesome Augmented Reality (AR) Authoring
 
-## Top Augmented Reality (AR) Authoring Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Augmented Reality AR Authoring Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Augmented-Reality-AR-Authoring?style=flat-square&color=green" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🌟 Top Augmented Reality (AR) Authoring Ecosystem
 
-*Focused on WebAR Authoring, Markerless Tracking & Self-Hosted XR Frameworks*  
+> **A definitive, SEO-optimized curated directory of enterprise SaaS platforms and open-source spatial computing frameworks for Augmented Reality (AR) Authoring, WebAR experiences, markerless SLAM tracking, and self-hosted WebXR pipelines.**
 
-**Last updated: October 2026**
+📅 **Last updated: October 2026**
 
+This repository tracks notable **SaaS platforms** and **open-source developer tools** for **Augmented Reality (AR) Authoring**. These tools enable creators, developers, educators, and enterprise teams to construct interactive 3D spatial experiences—anchoring models and interfaces in physical reality via image tracking, face mesh filters, object detection, and markerless surface SLAM—ranging from drag-and-drop no-code visual studios to client-side WebAssembly computer vision libraries running directly inside web browsers.
 
+### 🔍 Key Capabilities & Use Cases
+- 🌐 **WebAR (No-App-Required):** Instant AR activations accessed via web URLs or QR codes without native app installation.
+- 🎯 **Markerless SLAM & Surface Tracking:** Environmental plane detection and world tracking across floor, table, and wall surfaces.
+- 🤳 **Facial & Body Tracking:** High-precision face mesh generation, avatar mapping, and virtual try-ons (VTO).
+- 🏷️ **Marker & Natural Feature Image Targets:** Triggering interactive 3D visuals from packaging, book pages, cards, and billboards.
+- 📦 **Spatial 3D Asset Optimization & CMS:** Cloud streaming, glTF compression, and remote updates for cross-platform apps.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Augmented Reality (AR) Authoring**. These tools enable creators and developers to build AR experiences—placing 3D content in the real world through image tracking, face effects, or surface detection—ranging from no-code visual editors to code-first libraries that run entirely in the browser.
+---
 
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted AR Authoring Platforms](#️-saas--hosted-ar-authoring-platforms)
+- [⚡ Open-Source AR Frameworks & Authoring Tools](#-open-source-ar-frameworks--authoring-tools)
+- [📈 Star History](#-star-history)
+- [🤝 Support & Sponsoring](#-support--sponsoring)
+- [🛠️ How to Contribute](#️-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-**Examples** include Adobe Aero, 8th Wall, ZapWorks, Unity MARS, Blippar, PTC Vuforia Studio, Spark AR, Lens Studio, Wikitude, and Overly App (the category leaders).
+---
 
+## 📊 Sector Overview & Market Dynamics
 
+The global Augmented Reality (AR) software and authoring tools market is estimated at roughly **$120–$170 billion** across broader AR/XR sectors, with dedicated creation software expanding at a compound annual growth rate (**CAGR exceeding 30–40%**). While underlying spatial operating systems and hardware runtimes are tightly concentrated among big tech oligopolies (Apple, Google, Meta), the AR authoring tool and SaaS layer remains **moderately fragmented**, populated by specialized enterprise CAD/IoT solution vendors, no-code WebAR marketing suites, and real-time 3D engine ecosystems competing across distinct vertical niches.
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, avoiding per-view SaaS pricing, and controlling the AR pipeline. The open-source landscape shifted dramatically in **February 2026** when **8th Wall**—formerly a paid WebAR platform—went fully open source . The current landscape is anchored by **8th Wall** (MIT-licensed framework with SLAM binary), **MindAR** (pure-JavaScript image and face tracking), **ViroReact** (React Native AR/VR library), and **HERA** (no-code WebXR authoring), with **encantar.js** providing GPU-accelerated image tracking and **LUTE** serving locative game authoring within Unity.
+---
 
+## ☁️ SaaS & Hosted AR Authoring Platforms
 
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The global Augmented Reality (AR) software and authoring tools market is estimated at roughly $120–$170 billion across broader AR/XR sectors, with dedicated creation software expanding at a CAGR exceeding 30–40%. While underlying spatial operating systems and hardware runtimes are tightly concentrated among big tech oligopolies (Apple, Google, Meta), the AR authoring tool and SaaS layer remains **moderately fragmented**, populated by specialized enterprise CAD/IoT solution vendors, no-code WebAR marketing suites, and real-time 3D engine ecosystems competing across distinct vertical niches.
-
-
-## SaaS/Hosted Platforms
-
-
+The following hosted platforms provide cloud-based AR content authoring, managed hosting, asset transcoding, and analytics. Entries are sorted in **descending order by company size** (market capitalization, private valuation, or institutional funding).
 
 | Product | Company Size (Market Cap / Valuation / Revenue) | Description | Pricing | Free Tier Limit |
 | :--- | :--- | :--- | :--- | :--- |
@@ -64,98 +66,101 @@ The global Augmented Reality (AR) software and authoring tools market is estimat
 | **[MyWebAR](https://mywebar.com)** | **~$3M Venture Funding** (DEVAR Entertainment; estimated ~$4.2M–$10M ARR) | Browser-based visual no-code WebAR authoring tool for surface tracking, QR targets, and face filters. | Starts at **$39/month** ($25/mo billed annually) for Pro tier with commercial rights. | **Free Creator plan forever** limited to **500 views/year**, **5 active projects**, **100 MB cloud storage**, non-commercial use, and platform watermark. |
 | **[echo3D](https://www.echo3d.com/)** | **~$25M–$50M Valuation** ($10.6M total funding backed by Qualcomm Ventures; ~$1M–$2M ARR) | Cloud 3D digital asset management (DAM) and backend CMS platform for WebAR and 3D cross-platform streaming. | Starts at **$99/month** for Pro tier (includes 100 credits/mo, advanced compression, team sharing). | **Free plan forever** limited to **10 credits/month** (100 API calls, 1 GB storage, 250 MB bandwidth) and max **25 MB** per 3D file. |
 | **[Onirix](https://www.onirix.com)** | **~$1.9M ARR** (Acquired March 2026 by INVELON; raised €700K seed) | Web-based AR scene creator and spatial computing platform offering marker, surface, and image tracking. | Starts at **€45/month (~$49/mo)** billed annually (or €90/month billed monthly) for Starter tier. | **Free plan** limited to **200 AR views/month**, **up to 5 projects**, max 5 scenes per project, and mandatory Onirix watermark. |
-| **[Overly App](https://overlyapp.com/)** | **Bootstrapped / Indie SaaS** (Estimated <$1M ARR) | Self-service no-code WebAR builder and marker tracking platform for interactive print and 3D product visualizations. | Starts at **€19.99/month (~$22/mo)** per experience (or €11.99/mo per experience billed annually). | **Free trial** to build and preview AR experiences on mobile; Shopify integration tier offers **2 experiences and 50 views/month**.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[8th Wall](https://github.com/8thwall/8thwall)** [![GitHub Stars](https://img.shields.io/github/stars/8thwall/8thwall?style=social&color=white)](https://github.com/8thwall/8thwall/stargazers)  
-
-  **The open-source WebAR standard.** MIT-licensed framework and core modules, released after the hosted platform retired in February 2026 . **Components**: XR Engine (Image Targets, Face Effects, Sky Effects), Desktop app (visual editor for 3D/AR), Image Target Processor CLI, and XR Extras . **Critical caveat**: **SLAM is distributed as a binary-only engine**—not open source—under a limited-use license permitting commercial use . The rest of the framework is fully open and community-driven . Best for developers wanting a proven WebAR engine with broad 3D framework integrations (A-Frame, Three.js, Babylon.js, PlayCanvas) without vendor lock-in .
-
-
-
-- **[MindAR](https://github.com/hiukim/mind-ar-js)** [![GitHub Stars](https://img.shields.io/github/stars/hiukim/mind-ar-js?style=social&color=white)](https://github.com/hiukim/mind-ar-js/stargazers)  
-
-  **The pure-JavaScript tracking library.** Image tracking and face tracking written end-to-end in JavaScript, using WebGL and Web Workers for performance . **Key advantage**: no native dependencies, no binary components—runs entirely in the browser. **A-Frame integration**: create an image-tracking app in ~10 lines of code . **Companion tools**: MindAR Studio (drag-and-drop face tracking, free to self-host) and Pictarize (hosted image-tracking platform) . **Status**: actively maintained by an individual developer seeking community contributions for computer vision improvements . Best for developers wanting a fully open, dependency-light WebAR library for image and face tracking.
-
-
-
-- **[ViroReact](https://github.com/ReactVision/viro)** [![GitHub Stars](https://img.shields.io/github/stars/ReactVision/viro?style=social&color=white)](https://github.com/ReactVision/viro/stargazers)  
-
-  **The React Native AR/VR library.** MIT-licensed, ~1,828 stars, actively maintained (last push September 2026) . Builds AR and VR experiences using React Native and Expo across iOS and Android . Best for mobile developers already in the React Native ecosystem wanting native AR capabilities without writing platform-specific code.
-
-
-
-- **[HERA](https://github.com/ChloeArbona/hera)** [![GitHub Stars](https://img.shields.io/github/stars/ChloeArbona/hera?style=social&color=white)](https://github.com/ChloeArbona/hera/stargazers)  
-
-  **The no-code WebXR authoring framework.** Published in IEEE and HAL (2026), HERA is entirely web-based with no installation required . **Components**: Authoring Editor (place and edit 3D assets, images, text in an integrated 3D interface) and XR Viewer (view projects in AR or VR on any WebXR-compatible device) . **New in this version**: multi-user experience sharing—a master user controls a scene while multiple clients view simultaneously via QR code, with bandwidth as the only limit on participant count . Best for educators, curators, and non-technical creators wanting no-code AR/VR authoring with shared presentation capabilities.
-
-
-
-- **[encantar.js](https://github.com/alemart/encantar-js)** [![GitHub Stars](https://img.shields.io/github/stars/alemart/encantar-js?style=social&color=white)](https://github.com/alemart/encantar-js/stargazers)  
-
-  **The GPU-accelerated WebAR library.** Works on iOS, Android, and desktops **without requiring WebXR**—uses custom computer vision trackers . **Features**: image tracking (natural feature tracking without manual training), pointer tracking, and compatibility with any 3D engine (A-Frame, Babylon.js, Three.js) . **Licensing**: GPL-3.0 with optional terms for proprietary use. Best for developers wanting high-performance WebAR with broad device compatibility and no WebXR dependency.
-
-
-
-- **[LUTE (LoGaCulture Unity Toolkit/Engine)](https://github.com/LoGaCulture/LUTE)** [![GitHub Stars](https://img.shields.io/github/stars/LoGaCulture/LUTE?style=social&color=white)](https://github.com/LoGaCulture/LUTE/stargazers)  
-
-  **The locative game authoring toolkit.** MIT-licensed Unity plugin with a visual flow engine for building mixed reality games tied to real-world locations . **Features**: node-based hypertextual structure for game flow, "Orders" for modular content (3D, video, text, AR), and support for game mechanics like inventories and dialogue . **Research-backed**: developed by Bournemouth University and University of Southampton, used in cultural heritage projects (Avebury Stone Circle) . Best for designers building location-based AR experiences who want a Unity-based visual authoring tool with extensible code access.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **spARcl (Open AR Cloud)** — Peer-to-peer multi-user AR with GeoPose-based content sharing and CRDT persistence . Best for location-based collaborative AR experiments.
-
-- **AR.js** — Marker-based and location-based AR for the web, often paired with A-Frame. Best for simple marker-tracking experiences.
-
-- **artoolkitX** — Cross-platform marker-tracking SDK with experimental web support via Emscripten . Best for native mobile/desktop AR requiring robust marker tracking.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **8th Wall's SLAM is not open source**: the framework is MIT-licensed, but SLAM (world tracking) ships as a binary-only engine under a limited-use license. Commercial use is permitted, but the tracking core cannot be inspected or modified .
-
-- **WebXR support varies by device**: HERA and encantar.js have different compatibility profiles—HERA requires WebXR, encantar.js works without it . Verify target device support before committing.
-
-- **Open-source AR authoring is still maturing**: MindAR is maintained by an individual developer seeking community help ; HERA and LUTE are research projects. Evaluate project sustainability alongside features.
-
-
+| **[Overly App](https://overlyapp.com/)** | **Bootstrapped / Indie SaaS** (Estimated <$1M ARR) | Self-service no-code WebAR builder and marker tracking platform for interactive print and 3D product visualizations. | Starts at **€19.99/month (~$22/mo)** per experience (or €11.99/mo per experience billed annually). | **Free trial** to build and preview AR experiences on mobile; Shopify integration tier offers **2 experiences and 50 views/month**. |
 
 ---
 
+## ⚡ Open-Source AR Frameworks & Authoring Tools
 
+The following open-source libraries, runtimes, and developer toolkits enable self-hosted, vendor-agnostic AR authoring without recurring per-view SaaS hosting fees. All repositories feature live stargazer badges and are sorted in **descending order by GitHub star count**.
 
-**Made for AR creators, WebAR developers, and organizations building immersive experiences.**  
+- **[A-Frame](https://github.com/aframevr/aframe)** [![GitHub Stars](https://img.shields.io/github/stars/aframevr/aframe?style=social&color=white)](https://github.com/aframevr/aframe/stargazers)  
+  **The declarative HTML framework for spatial computing.** Built on Three.js, A-Frame lets developers compose WebXR and WebAR scenes directly in HTML markup using an entity-component-system (ECS) pattern. Integrates seamlessly with WebXR hit-test, AR.js, and MindAR for instant in-browser authoring.
 
-Let's make augmented reality authoring more open, accessible, and self-hostable.
+- **[<model-viewer> (Google)](https://github.com/google/model-viewer)** [![GitHub Stars](https://img.shields.io/github/stars/google/model-viewer?style=social&color=white)](https://github.com/google/model-viewer/stargazers)  
+  **The web-component standard for 3D and AR placement.** Maintained by Google, `<model-viewer>` delivers production-grade 3D model rendering and frictionless one-tap AR surface placement across iOS (Quick Look via USDZ) and Android (Scene Viewer / WebXR via glTF) with automatic lighting and shadow estimation.
+
+- **[AR.js](https://github.com/AR-js-org/AR.js)** [![GitHub Stars](https://img.shields.io/github/stars/AR-js-org/AR.js?style=social&color=white)](https://github.com/AR-js-org/AR.js/stargazers)  
+  **The ultra-fast, multi-tracking WebAR engine.** Provides lightweight marker tracking, natural feature image tracking, and location-based AR directly in web browsers. Runs at 60 FPS on mobile devices with zero installation, pairing seamlessly with A-Frame and Three.js.
+
+- **[Jeeliz FaceFilter](https://github.com/jeeliz/jeelizFaceFilter)** [![GitHub Stars](https://img.shields.io/github/stars/jeeliz/jeelizFaceFilter?style=social&color=white)](https://github.com/jeeliz/jeelizFaceFilter/stargazers)  
+  **Real-time deep learning WebGL face tracking.** Lightweight JavaScript library for multi-face detection, 3D facial rotation, and augmented reality face filters with mouth-opening detection. Integrates out of the box with Three.js, Babylon.js, Canvas2D, and CSS3D.
+
+- **[MindAR](https://github.com/hiukim/mind-ar-js)** [![GitHub Stars](https://img.shields.io/github/stars/hiukim/mind-ar-js?style=social&color=white)](https://github.com/hiukim/mind-ar-js/stargazers)  
+  **The pure-JavaScript tracking library.** End-to-end image and face tracking using WebGL and Web Workers for high performance without native binary dependencies. Offers straightforward A-Frame integrations (~10 lines of code) and companion tools like MindAR Studio for drag-and-drop authoring.
+
+- **[React XR (@react-three/xr)](https://github.com/pmndrs/react-xr)** [![GitHub Stars](https://img.shields.io/github/stars/pmndrs/react-xr?style=social&color=white)](https://github.com/pmndrs/react-xr/stargazers)  
+  **Modern React components for WebXR AR and VR.** Part of the Poimandres ecosystem, `@react-three/xr` brings WebXR hit-testing, spatial plane detection, hand tracking, and controller interactions into React Three Fiber applications for declarative, composable AR authoring.
+
+- **[ViroReact](https://github.com/ReactVision/viro)** [![GitHub Stars](https://img.shields.io/github/stars/ReactVision/viro?style=social&color=white)](https://github.com/ReactVision/viro/stargazers)  
+  **The React Native AR/VR framework.** Cross-platform mobile development library powered by native ARKit (iOS) and ARCore (Android) bindings. Enables developers to build native mobile AR experiences using React Native and Expo without platform-specific Objective-C or Java.
+
+- **[artoolkitX](https://github.com/artoolkitx/artoolkitx)** [![GitHub Stars](https://img.shields.io/github/stars/artoolkitx/artoolkitx?style=social&color=white)](https://github.com/artoolkitx/artoolkitx/stargazers)  
+  **High-performance cross-platform tracking SDK.** Native C++ computer vision engine offering planar marker tracking, 2D barcode matrix tracking, and natural feature texture tracking for iOS, Android, macOS, Windows, Linux, and experimental WebAssembly runtimes.
+
+- **[AlvaAR](https://github.com/alanross/AlvaAR)** [![GitHub Stars](https://img.shields.io/github/stars/alanross/AlvaAR?style=social&color=white)](https://github.com/alanross/AlvaAR/stargazers)  
+  **In-browser visual SLAM for WebAR.** A clean JavaScript library delivering real-time Simultaneous Localization and Mapping (SLAM) and camera pose estimation in mobile browsers without external native applications. Compatible with Three.js for markerless AR authoring.
+
+- **[8th Wall](https://github.com/8thwall/8thwall)** [![GitHub Stars](https://img.shields.io/github/stars/8thwall/8thwall?style=social&color=white)](https://github.com/8thwall/8thwall/stargazers)  
+  **The open-source WebAR framework standard.** Open-sourced in February 2026 under the MIT license with core modules, CLI tools, and a visual Desktop editor. Features broad integrations across Three.js, A-Frame, Babylon.js, and PlayCanvas *(Note: SLAM world tracking core is distributed as a binary engine permitting commercial use)*.
+
+- **[AR.js Studio](https://github.com/AR-js-org/studio)** [![GitHub Stars](https://img.shields.io/github/stars/AR-js-org/studio?style=social&color=white)](https://github.com/AR-js-org/studio/stargazers)  
+  **The no-code WebAR authoring platform.** A browser-based visual authoring studio developed by the AR.js organization. Enables non-programmers to drag, drop, and publish location-based and marker-based AR experiences directly to GitHub Pages with instant QR code previewing.
+
+- **[encantar.js](https://github.com/alemart/encantar-js)** [![GitHub Stars](https://img.shields.io/github/stars/alemart/encantar-js?style=social&color=white)](https://github.com/alemart/encantar-js/stargazers)  
+  **GPU-accelerated WebAR without WebXR dependencies.** Employs custom computer vision trackers to deliver natural feature image tracking and pointer tracking across iOS, Android, and desktop browsers, functioning seamlessly with any 3D WebGL renderer.
+
+- **[Needle Engine Samples](https://github.com/needle-tools/needle-engine-samples)** [![GitHub Stars](https://img.shields.io/github/stars/needle-tools/needle-engine-samples?style=social&color=white)](https://github.com/needle-tools/needle-engine-samples/stargazers)  
+  **Interactive WebXR authoring from Unity and Blender.** Reference projects and authoring templates demonstrating how to export interactive WebAR/WebXR scenes with physics, networking, and spatial placement directly from Unity and Blender into lightweight, browser-ready web applications.
+
+- **[LUTE (LoGaCulture Unity Toolkit/Engine)](https://github.com/LoGaCulture/LUTE)** [![GitHub Stars](https://img.shields.io/github/stars/LoGaCulture/LUTE?style=social&color=white)](https://github.com/LoGaCulture/LUTE/stargazers)  
+  **Locative narrative game authoring toolkit.** Academic research-backed Unity plugin utilizing a visual node flow engine to construct location-based mixed reality games and cultural heritage AR tours with interactive storytelling, dialogue trees, and 3D orders.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Augmented-Reality-AR-Authoring&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Augmented-Reality-AR-Authoring&type=date&legend=top-left)
+
+---
+
+## 🤝 Support & Sponsoring
+
+Thank you so much for exploring and supporting the **Awesome Augmented Reality (AR) Authoring** ecosystem! 💖
+
+If you found this curated list helpful for your research, client projects, or spatial development journey, please consider:
+- ⭐ **Starring this repository** to help others discover it across GitHub.
+- 🍴 **Forking and sharing** it with your developer, 3D artist, and XR communities.
+- ☕ **Buying a coffee or sponsoring ongoing maintenance** via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your backing fuels ongoing research, up-to-date pricing tracking, and expanded coverage of emerging spatial computing standards.
+
+---
+
+## 🛠️ How to Contribute
+
+Contributions are welcome and greatly appreciated! 🚀
+
+1. 🍴 **Fork the repository**.
+2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-ar-tool`).
+3. ✍️ **Add or edit entries in `README.md`** following the established format:
+   - For SaaS: include specific starting pricing, verified free tier quotas, and corporate metrics.
+   - For Open-Source: include the repository link, live stargazer badge linking to stargazers, and a 1–2 sentence capability breakdown.
+4. 🔍 **Verify links and factual accuracy**.
+5. 📤 **Submit a Pull Request** with a concise summary of your additions.
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated guide** intended for informational and educational purposes — not an official endorsement of any vendor or framework.
+- **8th Wall's SLAM engine is binary-only**: While the framework and CLI modules are MIT-licensed, world tracking relies on a proprietary binary under a limited-use commercial license.
+- **WebXR compatibility depends on device & browser support**: Verify iOS Safari and Android Chrome feature availability (e.g. WebXR Hit Test, Lighting Estimation) before deploying production projects.
+- **Pricing and product availability evolve**: SaaS plans, view limits, and platform support change over time; always confirm latest terms directly with providers.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for AR creators, WebAR developers, and spatial computing pioneers worldwide.</b><br>
+  <i>Let's make augmented reality authoring open, accessible, and limitless! 🌐👓✨</i>
+</p>

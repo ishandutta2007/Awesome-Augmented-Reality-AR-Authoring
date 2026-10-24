@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070913" />
+      <stop offset="50%" stop-color="#0d1326" />
+      <stop offset="100%" stop-color="#090d1a" />
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Animated Glow Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.65; transform: scale(1.08); }
+    }
+    @keyframes floatCube {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-12px) rotate(3deg); }
+    }
+    @keyframes scanLine {
+      0% { transform: translateY(0px); opacity: 0; }
+      15% { opacity: 0.8; }
+      85% { opacity: 0.8; }
+      100% { transform: translateY(240px); opacity: 0; }
+    }
+    @keyframes orbitNode {
+      0% { transform: rotate(0deg) translateX(40px) rotate(0deg); }
+      100% { transform: rotate(360deg) translateX(40px) rotate(-360deg); }
+    }
+    .pulsing-orb-1 {
+      transform-origin: 150px 100px;
+      animation: pulseGlow 8s ease-in-out infinite;
+    }
+    .pulsing-orb-2 {
+      transform-origin: 1050px 320px;
+      animation: pulseGlow 10s ease-in-out infinite 2s;
+    }
+    .floating-hud {
+      animation: floatCube 6s ease-in-out infinite;
+      transform-origin: 1020px 200px;
+    }
+    .scanner-line {
+      animation: scanLine 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+    }
+    .badge-label {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Ambient Glow Orbs in Background -->
+  <circle class="pulsing-orb-1" cx="160" cy="110" r="140" fill="#38bdf8" opacity="0.25" filter="url(#glowCyan)" />
+  <circle class="pulsing-orb-2" cx="1060" cy="300" r="160" fill="#a855f7" opacity="0.25" filter="url(#glowPurple)" />
+
+  <!-- Spatial Cyber Grid Perspective (AR Floor) -->
+  <g opacity="0.18" stroke="#38bdf8" stroke-width="1">
+    <line x1="100" y1="420" x2="350" y2="280" />
+    <line x1="250" y1="420" x2="430" y2="280" />
+    <line x1="400" y1="420" x2="510" y2="280" />
+    <line x1="550" y1="420" x2="590" y2="280" />
+    <line x1="700" y1="420" x2="670" y2="280" />
+    <line x1="850" y1="420" x2="750" y2="280" />
+    <line x1="1000" y1="420" x2="830" y2="280" />
+    <line x1="1150" y1="420" x2="910" y2="280" />
+    <line x1="300" y1="390" x2="980" y2="390" />
+    <line x1="325" y1="360" x2="950" y2="360" />
+    <line x1="340" y1="330" x2="920" y2="330" />
+    <line x1="350" y1="300" x2="890" y2="300" />
+    <line x1="355" y1="280" x2="880" y2="280" />
+  </g>
+
+  <!-- Right Side Interactive AR Spatial Gizmo (Background Layer) -->
+  <g class="floating-hud">
+    <!-- Spatial Cube / Target Visualizer -->
+    <g transform="translate(1000, 190)">
+      <!-- Isometric AR Wireframe Box -->
+      <polygon points="0,-60 60,-25 0,10 -60,-25" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-width="1.8" />
+      <polygon points="0,10 60,-25 60,45 0,80" fill="#818cf8" fill-opacity="0.15" stroke="#818cf8" stroke-width="1.8" />
+      <polygon points="0,10 -60,-25 -60,45 0,80" fill="#c084fc" fill-opacity="0.18" stroke="#c084fc" stroke-width="1.8" />
+
+      <!-- Coordinate Axis -->
+      <line x1="0" y1="10" x2="0" y2="-90" stroke="#f43f5e" stroke-width="2.5" stroke-dasharray="3,3" />
+      <circle cx="0" cy="-90" r="4" fill="#f43f5e" />
+      <line x1="0" y1="10" x2="90" y2="55" stroke="#10b981" stroke-width="2.5" stroke-dasharray="3,3" />
+      <circle cx="90" cy="55" r="4" fill="#10b981" />
+      <line x1="0" y1="10" x2="-90" y2="55" stroke="#0ea5e9" stroke-width="2.5" stroke-dasharray="3,3" />
+      <circle cx="-90" cy="55" r="4" fill="#0ea5e9" />
+
+      <!-- AR Reticle Target Ring -->
+      <circle cx="0" cy="10" r="110" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="8,6" opacity="0.6" />
+      <circle cx="0" cy="10" r="130" fill="none" stroke="#c084fc" stroke-width="1" stroke-dasharray="3,8" opacity="0.4" />
+
+      <!-- Reticle corner brackets -->
+      <path d="M -85,-75 L -105,-75 L -105,-55" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+      <path d="M 85,-75 L 105,-75 L 105,-55" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+      <path d="M -85,95 L -105,95 L -105,75" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+      <path d="M 85,95 L 105,95 L 105,75" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+    </g>
+  </g>
+
+  <!-- Animated Scanner Laser (Confined to right side AR Target) -->
+  <g transform="translate(870, 70)">
+    <line class="scanner-line" x1="0" y1="0" x2="260" y2="0" stroke="url(#primaryGrad)" stroke-width="2.5" filter="url(#glowCyan)" />
+  </g>
+
+  <!-- Foreground Content (Always crisp, prominent, high contrast) -->
+  <g transform="translate(80, 0)">
+    <!-- Small Category Pill -->
+    <g transform="translate(0, 52)">
+      <rect width="260" height="30" rx="15" fill="url(#badgeGrad)" stroke="#38bdf8" stroke-width="1.2" />
+      <circle cx="16" cy="15" r="5" fill="#10b981" />
+      <text x="32" y="20" class="badge-label" fill="#e2e8f0">CURATED ECOSYSTEM 2026</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="140" class="title-text" font-size="44" fill="#ffffff">
+      Awesome <tspan fill="url(#primaryGrad)">Augmented Reality</tspan>
+    </text>
+    <text x="0" y="195" class="title-text" font-size="38" fill="#f8fafc">
+      AR Authoring Ecosystem 👓 ✨
+    </text>
+
+    <!-- Subtitle / Mission Statement -->
+    <text x="0" y="245" class="subtitle-text" font-size="18" fill="#94a3b8">
+      A comprehensive guide to WebAR authoring platforms, markerless tracking,
+    </text>
+    <text x="0" y="272" class="subtitle-text" font-size="18" fill="#94a3b8">
+      spatial computing frameworks, and self-hosted open-source XR tools.
+    </text>
+
+    <!-- Feature Tags / Quick Pillars -->
+    <g transform="translate(0, 315)">
+      <!-- Tag 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="115" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="14" y="22" class="badge-label" fill="#38bdf8">🌐 WebAR</text>
+      </g>
+      <!-- Tag 2 -->
+      <g transform="translate(125, 0)">
+        <rect width="125" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="14" y="22" class="badge-label" fill="#818cf8">🎯 WebXR SLAM</text>
+      </g>
+      <!-- Tag 3 -->
+      <g transform="translate(260, 0)">
+        <rect width="145" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="14" y="22" class="badge-label" fill="#c084fc">⚡ Open Source</text>
+      </g>
+      <!-- Tag 4 -->
+      <g transform="translate(415, 0)">
+        <rect width="125" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="14" y="22" class="badge-label" fill="#34d399">☁️ SaaS Tools</text>
+      </g>
+      <!-- Tag 5 -->
+      <g transform="translate(550, 0)">
+        <rect width="145" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="14" y="22" class="badge-label" fill="#f472b6">🔮 Spatial Visuals</text>
+      </g>
+    </g>
+  </g>
+</svg>
